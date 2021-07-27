@@ -1,11 +1,11 @@
-package soluzione;
+package esercizio1.soluzione;
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.ZoneId;
 
-import packabe_b.Info;
-import package_a.DataSource;
+import esercizio1.package_a.DataSource;
+import esercizio1.package_b.Info;
 
 public class AdapterDati extends Info implements DataSource {
 

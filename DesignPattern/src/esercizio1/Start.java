@@ -1,10 +1,11 @@
+package esercizio1;
 import java.util.Date;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import packabe_b.Info;
-import package_a.UserData;
-import soluzione.AdapterDati;
+import esercizio1.package_a.UserData;
+import esercizio1.package_b.Info;
+import esercizio1.soluzione.AdapterDati;
 
 public class Start {
 	public static void main(String[] args) {

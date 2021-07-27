@@ -1,4 +1,4 @@
-package packabe_b;
+package esercizio1.package_b;
 
 import java.util.Date;
 

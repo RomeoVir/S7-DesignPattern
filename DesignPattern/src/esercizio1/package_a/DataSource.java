@@ -1,4 +1,4 @@
-package package_a;
+package esercizio1.package_a;
 
 
 public interface DataSource {
