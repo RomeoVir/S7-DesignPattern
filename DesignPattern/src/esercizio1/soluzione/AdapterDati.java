@@ -20,7 +20,7 @@ public class AdapterDati extends Info implements DataSource {
 	public int getEta() {
 		LocalDate dataNascita = getDataDiNascita().toInstant()
 			      .atZone(ZoneId.systemDefault())
-			      .toLocalDate();;
+			      .toLocalDate();
 		LocalDate currentDate = LocalDate.now();
 
 		return Period.between(dataNascita, currentDate).getYears();

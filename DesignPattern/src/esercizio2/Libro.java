@@ -54,5 +54,6 @@ public class Libro {
 		this.autori = autori;
 	}
 	
+	
 
 }
