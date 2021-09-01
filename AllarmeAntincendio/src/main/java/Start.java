@@ -46,8 +46,7 @@ public class Start {
 		s4.notificaOsservatore();	
 		
 		
-		
-		
+		//s3.setLivelloFumo(7);		
 	}
 
 }

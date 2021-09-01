@@ -14,8 +14,10 @@ public class CentroControllo implements Osservatore{
 	public void riceviSegnale(DataSource ds) {
 		
 		if(ds.getLivelloFumo()>=5 && ds.getLivelloFumo()<10) {
+			
 			ComunicaHttp.creaComunicazione().inviaNotifica(ds);
 			ComunicaSMS.creaComunicazione().inviaNotifica(ds);
+		
 		}else if (ds.getLivelloFumo()<0 || ds.getLivelloFumo()>10){
 			System.out.println("Livello errato, sonda " + ds.getIdSonda() + " difettosa. Livello " + ds.getLivelloFumo());
 		}else if (ds.getLivelloFumo()>=0 && ds.getLivelloFumo()<5){
